@@ -1,0 +1,33 @@
+id:97 user_id:wmMrEfPwAAMFmF4HYyJKvQ3x452DEExg message:新款电池的研发进展如何？能否提前了解一些技术亮点？  
+
+id:96 user_id:wmMrEfPwAAMFmF4HYyJKvQ3x452DEExg message:经销商后台统计数据显示部分数据异常，请确认数据准确性。
+id:95 user_id:wmMrEfPwAAMFmF4HYyJKvQ3x452DEExg message:是否可以提供产品样品供客户现场展示使用？
+id:94 user_id:wmMrEfPwAAMFmF4HYyJKvQ3x452DEExg message:我想了解最新的行业动态和技术趋势，有相关培训吗？
+id:93 user_id:wmMrEfPwAAMFmF4HYyJKvQ3x452DEExg message:网站上产品信息更新较慢，是否考虑优化更新频率？
+id:92 user_id:wmMrEfPwAAMFmF4HYyJKvQ3x452DEExg message:客户对电池充电效率提出疑问，是否有相关技术支持？
+id:91 user_id:wmMrEfPwAAMFmF4HYyJKvQ3x452DEExg message:请问近期是否安排有市场推广活动或经销商培训？
+id:90 user_id:wmMrEfPwAAMFmF4HYyJKvQ3x452DEExg message:部分货品的批次号标识不清，建议核查并调整管理。
+id:89 user_id:wmMrEfPwAAMFmF4HYyJKvQ3x452DEExg message:我在填写订单时遇到系统崩溃，请问有没有临时解决办法？
+
+id:88 user_id:wmMrEfPwAAMFmF4HYyJKvQ3x452DEExg message:最近有客户投诉使用过程中出现异常，请问如何处理？
+id:87 user_id:wmMrEfPwAAMFmF4HYyJKvQ3x452DEExg message:我想了解目前各区域的销售情况，能否提供数据报告？
+id:86 user_id:wmMrEfPwAAMFmF4HYyJKvQ3x452DEExg message:请问能否增加更多产品手册和技术文档下载？
+id:85 user_id:wmMrEfPwAAMFmF4HYyJKvQ3x452DEExg message:关于新产品的性能参数，能否提供详细的技术说明？
+
+id:84 user_id:wmMrEfPwAAMFmF4HYyJKvQ3x452DEExg message:我这边遇到订单系统频繁崩溃的问题，请协助处理。
+id:83 user_id:wmMrEfPwAAMFmF4HYyJKvQ3x452DEExg message:客户反映售后服务流程复杂，是否有优化方案？
+id:82 user_id:wmMrEfPwAAMFmF4HYyJKvQ3x452DEExg message:产品包装设计有待改进，能否反馈给研发部门？
+id:81 user_id:wmMrEfPwAAMFmF4HYyJKvQ3x452DEExg message:上次会议讨论的价格调整问题，是否已经落实？
+id:80 user_id:wmMrEfPwAAMFmF4HYyJKvQ3x452DEExg message:请问如何申请技术培训，提高安装团队的技能？
+id:79 user_id:wmMrEfPwAAMFmF4HYyJKvQ3x452DEExg message:近期销售数据不理想，有没有市场推广方案推荐？
+id:78 user_id:wmMrEfPwAAMFmF4HYyJKvQ3x452DEExg message:运输途中电池损坏率较高，有没有改进建议？
+id:77 user_id:wmMrEfPwAAMFmF4HYyJKvQ3x452DEExg message:经销商平台登录时遇到密码错误问题，如何重置？
+id:76 user_id:wmMrEfPwAAMFmF4HYyJKvQ3x452DEExg message:我想了解更多关于产品质保期限的细节说明。
+id:75 user_id:wmMrEfPwAAMFmF4HYyJKvQ3x452DEExg message:今年的返点政策和优惠措施有更新吗？
+id:74 user_id:wmMrEfPwAAMFmF4HYyJKvQ3x452DEExg message:客户反映部分电池出现漏液问题，请核查质量情况。
+id:73 user_id:wmMrEfPwAAMFmF4HYyJKvQ3x452DEExg message:新款电池的上市时间是否有具体计划？
+id:72 user_id:wmMrEfPwAAMFmF4HYyJKvQ3x452DEExg message:上次订单发货延迟，请问是什么原因？
+id:71 user_id:wmMrEfPwAAMFmF4HYyJKvQ3x452DEExg message:最近我这边库存紧张，能否尽快安排补货？
+id:70 user_id:wmMrEfPwAAMFmF4HYyJKvQ3x452DEExg message:您好，请问最新的产品价格表能否提供？
+id:69 user_id:wmMrEfPwAAMFmF4HYyJKvQ3x452DEExg message:我的快递到哪儿了呢
+id:68 user_id:wmMrEfPwAAMFmF4HYyJKvQ3x452DEExg message:你们的sx300的这一款蓄电池有质量问题

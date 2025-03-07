@@ -1,0 +1,251 @@
+{
+  "issues": [
+    {
+      "date": "2023/10/01",
+      "issue_type": "技术支持",
+      "description": "新款电池的研发进展如何？能否提前了解一些技术亮点？",
+      "urgency": "低",
+      "completion": 0,
+      "status": "未处理",
+      "negative_feedback": "否"
+    },
+    {
+      "date": "2023/10/01",
+      "issue_type": "其他",
+      "description": "经销商后台统计数据显示部分数据异常，请确认数据准确性。",
+      "urgency": "中",
+      "completion": 0,
+      "status": "未处理",
+      "negative_feedback": "是"
+    },
+    {
+      "date": "2023/10/01",
+      "issue_type": "售后",
+      "description": "是否可以提供产品样品供客户现场展示使用？",
+      "urgency": "中",
+      "completion": 0,
+      "status": "未处理",
+      "negative_feedback": "否"
+    },
+    {
+      "date": "2023/10/01",
+      "issue_type": "技术支持",
+      "description": "我想了解最新的行业动态和技术趋势，有相关培训吗？",
+      "urgency": "低",
+      "completion": 0,
+      "status": "未处理",
+      "negative_feedback": "否"
+    },
+    {
+      "date": "2023/10/01",
+      "issue_type": "其他",
+      "description": "网站上产品信息更新较慢，是否考虑优化更新频率？",
+      "urgency": "中",
+      "completion": 0,
+      "status": "未处理",
+      "negative_feedback": "否"
+    },
+    {
+      "date": "2023/10/01",
+      "issue_type": "技术支持",
+      "description": "客户对电池充电效率提出疑问，是否有相关技术支持？",
+      "urgency": "中",
+      "completion": 0,
+      "status": "未处理",
+      "negative_feedback": "否"
+    },
+    {
+      "date": "2023/10/01",
+      "issue_type": "其他",
+      "description": "请问近期是否安排有市场推广活动或经销商培训？",
+      "urgency": "低",
+      "completion": 0,
+      "status": "未处理",
+      "negative_feedback": "否"
+    },
+    {
+      "date": "2023/10/01",
+      "issue_type": "产品",
+      "description": "部分货品的批次号标识不清，建议核查并调整管理。",
+      "urgency": "中",
+      "completion": 0,
+      "status": "未处理",
+      "negative_feedback": "是"
+    },
+    {
+      "date": "2023/10/01",
+      "issue_type": "订单",
+      "description": "我在填写订单时遇到系统崩溃，请问有没有临时解决办法？",
+      "urgency": "高",
+      "completion": 0,
+      "status": "未处理",
+      "negative_feedback": "是"
+    },
+    {
+      "date": "2023/10/01",
+      "issue_type": "售后",
+      "description": "最近有客户投诉使用过程中出现异常，请问如何处理？",
+      "urgency": "高",
+      "completion": 0,
+      "status": "未处理",
+      "negative_feedback": "是"
+    },
+    {
+      "date": "2023/10/01",
+      "issue_type": "其他",
+      "description": "我想了解目前各区域的销售情况，能否提供数据报告？",
+      "urgency": "低",
+      "completion": 0,
+      "status": "未处理",
+      "negative_feedback": "否"
+    },
+    {
+      "date": "2023/10/01",
+      "issue_type": "技术支持",
+      "description": "请问能否增加更多产品手册和技术文档下载？",
+      "urgency": "中",
+      "completion": 0,
+      "status": "未处理",
+      "negative_feedback": "否"
+    },
+    {
+      "date": "2023/10/01",
+      "issue_type": "技术支持",
+      "description": "关于新产品的性能参数，能否提供详细的技术说明？",
+      "urgency": "中",
+      "completion": 0,
+      "status": "未处理",
+      "negative_feedback": "否"
+    },
+    {
+      "date": "2023/10/01",
+      "issue_type": "订单",
+      "description": "我这边遇到订单系统频繁崩溃的问题，请协助处理。",
+      "urgency": "高",
+      "completion": 0,
+      "status": "未处理",
+      "negative_feedback": "是"
+    },
+    {
+      "date": "2023/10/01",
+      "issue_type": "售后",
+      "description": "客户反映售后服务流程复杂，是否有优化方案？",
+      "urgency": "中",
+      "completion": 0,
+      "status": "未处理",
+      "negative_feedback": "是"
+    },
+    {
+      "date": "2023/10/01",
+      "issue_type": "产品",
+      "description": "产品包装设计有待改进，能否反馈给研发部门？",
+      "urgency": "中",
+      "completion": 0,
+      "status": "未处理",
+      "negative_feedback": "否"
+    },
+    {
+      "date": "2023/10/01",
+      "issue_type": "其他",
+      "description": "上次会议讨论的价格调整问题，是否已经落实？",
+      "urgency": "低",
+      "completion": 0,
+      "status": "未处理",
+      "negative_feedback": "否"
+    },
+    {
+      "date": "2023/10/01",
+      "issue_type": "技术支持",
+      "description": "请问如何申请技术培训，提高安装团队的技能？",
+      "urgency": "中",
+      "completion": 0,
+      "status": "未处理",
+      "negative_feedback": "否"
+    },
+    {
+      "date": "2023/10/01",
+      "issue_type": "其他",
+      "description": "近期销售数据不理想，有没有市场推广方案推荐？",
+      "urgency": "中",
+      "completion": 0,
+      "status": "未处理",
+      "negative_feedback": "否"
+    },
+    {
+      "date": "2023/10/01",
+      "issue_type": "物流",
+      "description": "运输途中电池损坏率较高，有没有改进建议？",
+      "urgency": "高",
+      "completion": 0,
+      "status": "未处理",
+      "negative_feedback": "是"
+    },
+    {
+      "date": "2023/10/01",
+      "issue_type": "订单",
+      "description": "经销商平台登录时遇到密码错误问题，如何重置？",
+      "urgency": "中",
+      "completion": 0,
+      "status": "未处理",
+      "negative_feedback": "否"
+    },
+    {
+      "date": "2023/10/01",
+      "issue_type": "售后",
+      "description": "客户反映部分电池出现漏液问题，请核查质量情况。",
+      "urgency": "高",
+      "completion": 0,
+      "status": "未处理",
+      "negative_feedback": "是"
+    },
+    {
+      "date": "2023/10/01",
+      "issue_type": "物流",
+      "description": "上次订单发货延迟，请问是什么原因？",
+      "urgency": "中",
+      "completion": 0,
+      "status": "未处理",
+      "negative_feedback": "是"
+    },
+    {
+      "date": "2023/10/01",
+      "issue_type": "订单",
+      "description": "最近我这边库存紧张，能否尽快安排补货？",
+      "urgency": "高",
+      "completion": 0,
+      "status": "未处理",
+      "negative_feedback": "否"
+    },
+    {
+      "date": "2023/10/01",
+      "issue_type": "其他",
+      "description": "您好，请问最新的产品价格表能否提供？",
+      "urgency": "低",
+      "completion": 0,
+      "status": "未处理",
+      "negative_feedback": "否"
+    },
+    {
+      "date": "2023/10/01",
+      "issue_type": "物流",
+      "description": "我的快递到哪儿了呢",
+      "urgency": "中",
+      "completion": 0,
+      "status": "未处理",
+      "negative_feedback": "否"
+    },
+    {
+      "date": "2023/10/01",
+      "issue_type": "产品",
+      "description": "你们的sx300的这一款蓄电池有质量问题",
+      "urgency": "高",
+      "completion": 0,
+      "status": "未处理",
+      "negative_feedback": "是"
+    }
+  ],
+  "sales": [],
+  "metadata": {
+    "generation_time": "2025-03-07 12:53:56"
+  }
+}
