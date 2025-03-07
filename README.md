@@ -16,7 +16,7 @@
 
 ## 二、安装依赖
 
-请按照以下步骤在终端（或命令行）中执行安装命令：
+linux请按照以下步骤在终端（或命令行）中执行安装命令：
 
 ```bash
 # 安装第三方 Python 库
@@ -43,10 +43,10 @@ chmod +x process_data.sh
    # 终止进程
    kill [进程ID]
    
-   确认进程中止：
+   确认进程中止：记得结束杀进程
    
    if pgrep -f "process_data.sh --run-loop" > /dev/null; then
     echo "进程仍在运行！"
-else
+   else
     echo "进程已终止"
-fi
+   fi
