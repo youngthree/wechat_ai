@@ -7,22 +7,21 @@ import os
 import time
 from datetime import datetime
 
-# MySQL连接配置 - 使用已知可连接的参数
+# MySQL连接配置
 DB_CONFIG = {
-    'host': 'localhost',
-    'user': 'root',
-    'password': 'hello!edgenesis',
-    'database': 'wechat_data',
-    'port': 13306,
-    'connect_timeout': 60,
-    'unix_socket': ''  # 确保使用TCP/IP连接
+    'host': os.getenv("DB_HOST", "20.89.181.184"),
+    'user': os.getenv("DB_USER", "wechat_user"),
+    'password': os.getenv("DB_PASSWORD", "Hello@edgenesis123"),
+    'database': os.getenv("DB_NAME", "wechat_service"),
+    'port': int(os.getenv("DB_PORT", 3306)),
+    'connect_timeout': 60
 }
 
 # 输出文件路径
 OUTPUT_FILE = 'input.txt'
 
-# 表名 - 默认为"messages"，可以更改为实际表名
-TABLE_NAME = os.getenv("DB_TABLE", "messages")
+# 表名 - 更新为新的表名
+TABLE_NAME = os.getenv("DB_TABLE", "chat_records")
 
 def connect_to_mysql_with_retry(max_retries=3, retry_delay=5):
     """带重试机制的MySQL连接函数"""
@@ -86,54 +85,25 @@ def format_data_for_txt(data, columns):
         print("没有数据可格式化")
         return []
     
-    # 识别关键字段
-    id_field = next((col for col in columns if col.lower() == 'id'), None)
-    user_field = next((col for col in columns if col.lower() in ['user_id', 'customer', 'user', 'from_user']), None)
-    time_field = next((col for col in columns if col.lower() in ['time', 'date', 'timestamp', 'created_at', 'create_time']), None)
-    message_field = next((col for col in columns if col.lower() in ['message', 'content', 'chat_records', 'comment', 'msg', 'text']), None)
-    
-    if not id_field:
-        print("警告: 无法识别ID字段")
-        print(f"可用字段: {columns}")
-        id_field = columns[0]  # 使用第一列作为ID
-        print(f"使用 {id_field} 作为ID字段")
-    
-    if not message_field:
-        print("警告: 无法识别消息内容字段")
-        print(f"可用字段: {columns}")
-        # 尝试找到可能包含文本内容的最长字段
-        potential_text_fields = []
-        for row in data[:5]:  # 只检查前5行
-            for col in columns:
-                if isinstance(row[col], str) and len(row[col]) > 10:
-                    potential_text_fields.append((col, len(row[col])))
-        
-        if potential_text_fields:
-            # 选择平均长度最长的字段
-            from collections import defaultdict
-            field_lengths = defaultdict(list)
-            for field, length in potential_text_fields:
-                field_lengths[field].append(length)
-            
-            avg_lengths = [(field, sum(lengths)/len(lengths)) for field, lengths in field_lengths.items()]
-            message_field = max(avg_lengths, key=lambda x: x[1])[0]
-            print(f"使用 {message_field} 作为消息内容字段")
+    # 根据新的数据库结构更新字段映射
+    id_field = 'id'
+    user_field = 'user_id'
+    time_field = 'chat_time'
+    message_field = 'message'
     
     # 格式化每一行数据
     for row in data:
         line_parts = []
         
         # 添加ID
-        if id_field:
-            line_parts.append(f"id:{row[id_field]}")
+        line_parts.append(f"id:{row[id_field]}")
         
-        # 添加用户ID (如果存在)
-        if user_field and row[user_field]:
+        # 添加用户ID
+        if row[user_field]:
             line_parts.append(f"user_id:{row[user_field]}")
         
-        # 添加时间 (如果存在)
-        if time_field and row[time_field]:
-            # 处理不同格式的时间
+        # 添加时间
+        if row[time_field]:
             time_value = row[time_field]
             if isinstance(time_value, datetime):
                 time_str = time_value.strftime("%H:%M:%S")
@@ -142,7 +112,7 @@ def format_data_for_txt(data, columns):
             line_parts.append(f"time:{time_str}")
         
         # 添加消息内容
-        if message_field and row[message_field]:
+        if row[message_field]:
             line_parts.append(f"message:{row[message_field]}")
         
         # 将所有部分组合成一行
