@@ -1,7 +1,7 @@
 {
   "issues": [
     {
-      "date": "2023/10/05",
+      "date": "2023/10/01",
       "issue_type": "产品",
       "description": "电池质保多久",
       "urgency": "低",
@@ -10,8 +10,8 @@
       "negative_feedback": "否"
     },
     {
-      "date": "2023/10/05",
-      "issue_type": "产品",
+      "date": "2023/10/01",
+      "issue_type": "技术支持",
       "description": "dx12电池适合那些使用场景",
       "urgency": "低",
       "completion": 0,
@@ -19,7 +19,7 @@
       "negative_feedback": "否"
     },
     {
-      "date": "2023/10/05",
+      "date": "2023/10/01",
       "issue_type": "物流",
       "description": "电池多久到货",
       "urgency": "中",
@@ -28,7 +28,7 @@
       "negative_feedback": "否"
     },
     {
-      "date": "2023/10/05",
+      "date": "2023/10/01",
       "issue_type": "产品",
       "description": "部分货品的批次号标识不清，建议核查并调整管理。",
       "urgency": "中",
@@ -37,7 +37,7 @@
       "negative_feedback": "是"
     },
     {
-      "date": "2023/10/05",
+      "date": "2023/10/01",
       "issue_type": "订单",
       "description": "我上周订购的一批电池，还没发货，什么时候发货",
       "urgency": "高",
@@ -46,17 +46,8 @@
       "negative_feedback": "是"
     },
     {
-      "date": "2023/10/05",
-      "issue_type": "物流",
-      "description": "我的货什么时候发货呢",
-      "urgency": "高",
-      "completion": 0,
-      "status": "未处理",
-      "negative_feedback": "否"
-    },
-    {
-      "date": "2023/10/05",
-      "issue_type": "技术支持",
+      "date": "2023/10/01",
+      "issue_type": "其他",
       "description": "你们最近的仓储如何",
       "urgency": "低",
       "completion": 0,
@@ -64,7 +55,7 @@
       "negative_feedback": "否"
     },
     {
-      "date": "2023/10/05",
+      "date": "2023/10/01",
       "issue_type": "技术支持",
       "description": "新款电池的研发进展如何？能否提前了解一些技术亮点？",
       "urgency": "低",
@@ -73,7 +64,7 @@
       "negative_feedback": "否"
     },
     {
-      "date": "2023/10/05",
+      "date": "2023/10/01",
       "issue_type": "产品",
       "description": "现在的产品质量一般啊",
       "urgency": "中",
@@ -84,6 +75,6 @@
   ],
   "sales": [],
   "metadata": {
-    "generation_time": "2025-04-14 13:48:48"
+    "generation_time": "2025-04-14 16:43:48"
   }
 }
